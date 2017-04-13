@@ -7,6 +7,7 @@ app.controller('FreeLancer.MainController', ['$scope', function ($scope) {
     $scope.user = {};
     // calling our submit function.
     $scope.submitForm = function () {
+        console.log('Submited');
         // Posting data to php file
         $http({
             method: 'POST',
@@ -17,6 +18,7 @@ app.controller('FreeLancer.MainController', ['$scope', function ($scope) {
             .success(function (data) {
                 $scope.message = data.message;
                 console.log($scope.message);
+                console.log('Success');
             });
     };
 }]);
