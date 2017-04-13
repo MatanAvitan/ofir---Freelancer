@@ -3,5 +3,5 @@
  */
 
 app.controller('FreeLancer.MainController', ['$scope', function($scope) {
-    alert('sdgsgs');
+    console.log('sdgsgs');
 }]);
