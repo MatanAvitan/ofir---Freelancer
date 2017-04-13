@@ -7,7 +7,7 @@ var app = angular.module('FreeLancer', ['ngRoute','ngResource']);
 app.config(['$routeProvider', function ($provider) {
     $routeProvider
         .when('/index',{
-            controller: 'MainController',
+            controller: 'FreeLancer.MainController',
             templateUrl: 'Ofir - Freelancer/index.html'
         });
 }]);
