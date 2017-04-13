@@ -4,5 +4,4 @@
 
 FreeLancer.controller('MainController', ['$scope', function($scope) {
     alert('sdgsgs');
-    SendMai
 }]);
