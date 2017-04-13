@@ -455,30 +455,30 @@
             <div class="col-md-6">
 
                 <div class="row">
-                    <form role="form" ng-submit="SendMai()">
+                    <form role="form" ng-submit="submitForm()">
 
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" id="name" ng-model="name" class="form-control" placeholder="Your Name">
+                                <input type="text" id="name" ng-model="user.name" class="form-control" placeholder="Your Name">
                             </div>
                         </div>
 
 
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" id="address" ng-model="address" class="form-control" placeholder="Where are You From?">
+                                <input type="text" id="address" ng-model="user.address" class="form-control" placeholder="Where are You From?">
                             </div>
                         </div>
 
 
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <input type="email" id="email" ng-model="email" class="form-control" placeholder="Your Email">
+                                <input type="email" id="email" ng-model="user.email" class="form-control" placeholder="Your Email">
                             </div>
                         </div>
 
                         <div class="col-sm-12">
-                            <select id="subject" ng-model="subject" class="form-group form-control">
+                            <select id="subject" ng-model="user.subject" class="form-group form-control">
                                 <option value="" selected disabled>Subject</option>
                                 <option>Construction</option>
                                 <option>Engine Optimization</option>
@@ -489,7 +489,7 @@
 
                         <div class="col-sm-12">
                             <div class="textarea-message form-group">
-                                <textarea id="message" ng-model="message" class="textarea-message form-control" placeholder="Your Message"
+                                <textarea id="message" ng-model="user.message" class="textarea-message form-control" placeholder="Your Message"
                                           rows="5"></textarea>
                             </div>
                         </div>
