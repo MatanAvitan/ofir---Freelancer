@@ -11,7 +11,7 @@ app.controller('FreeLancer.MainController', ['$scope', function ($scope) {
         // Posting data to php file
         $http({
             method: 'POST',
-            url: 'https://vshma.github.io/ofir---Freelancer/data',
+            url: '/data',
             data: $scope.user, //forms user object
             headers: {'Content-Type': 'application/x-www-form-urlencoded'}
         })
