@@ -2,7 +2,7 @@
  * Created by Matan on 4/13/2017.
  */
 
-var app = angular.module('FreeLancer', ['ngRoute', 'ngResource']);
+var app = angular.module('FreeLancer', []);
 
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
