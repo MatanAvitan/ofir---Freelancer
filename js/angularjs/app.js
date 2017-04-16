@@ -4,7 +4,7 @@
 
 var app = angular.module('FreeLancer', ['ngRoute', 'ngResource']);
 
-app.config(['$routeProvider', function ($provider) {
+app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
         .when('/',{
             controller: 'FreeLancer.MainController',

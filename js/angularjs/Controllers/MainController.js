@@ -3,6 +3,7 @@
  */
 
 app.controller('FreeLancer.MainController', ['$scope', function ($scope) {
+    console.log('Entered');
     // create a blank object to handle form data.
     $scope.user = {};
     // calling our submit function.
