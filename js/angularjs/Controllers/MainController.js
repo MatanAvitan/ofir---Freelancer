@@ -13,7 +13,7 @@ app.controller('FreeLancer.MainController', ['$scope', '$http', function ($scope
         $http({
             method: 'POST',
             url: '/data',
-            data: $scope.user, //forms user object
+            data: "hi", //forms user object
             headers: {'Content-Type': 'application/x-www-form-urlencoded'}
         })
             .success(function (data) {
