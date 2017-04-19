@@ -5,7 +5,7 @@
 app.controller('FreeLancer.MainController', ['$scope', '$http', function ($scope) {
     console.log('Entered');
     // create a blank object to handle form data.
-    $scope.user = {};
+    $scope.user = {"None"};
     // calling our submit function.
     $scope.submitForm = function ($scope, $http) {
         console.log('Submited');
