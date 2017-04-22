@@ -10,6 +10,7 @@ app.controller('FreeLancer.MainController', ['$scope', '$http', function ($scope
     // calling our submit function.
     $scope.submitForm = function ($scope, $http) {
         console.log('Submited');
+        console.log($scope.user);
         // Posting data to php file
         $http({
             method: 'POST',
