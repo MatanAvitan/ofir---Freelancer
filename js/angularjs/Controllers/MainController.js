@@ -2,7 +2,7 @@
  * Created by Matan on 4/13/2017.
  */
 
-app.controller('FreeLancer.MainController', ['$scope', '$http', function ($scope, $http) {
+app.controller('FreeLancer.MainController', ['$scope', '$http', '$state', function ($scope, $http, $state) {
     console.log('Entered');
     // create a blank object to handle form data.
     $scope.user = {};
